@@ -52,26 +52,7 @@ class Hosttest(TestCase):
         logout.click()
         print('logged out')
         time.sleep(2)
-        # profile = driver.find_element(By.CSS_SELECTOR, 'a[href="/edit-player-profile"]')
-        # profile.click()
-        # time.sleep(2)
-        # post = driver.find_element(By.CSS_SELECTOR, 'input.form-control[name="loc"]')
-        # post.send_keys("Meenadom")
-        # time.sleep(2)
-        # print('profile updation')
-        # sub = driver.find_element(By.CSS_SELECTOR, "button.btn.btn-success")
-        # sub.click()
-        # time.sleep(2)
-        # print("profile updated")
-        # post = driver.find_element(By.CSS_SELECTOR, 'textarea.form-control[name="feed"]')
-        # post.send_keys("Testing on progress")
-        # time.sleep(2)
-        # testbtn = driver.find_element(By.CSS_SELECTOR, "button.btn.btn-outline-warning")
-        # testbtn.click()
-        # print('post created')
-        # time.sleep(2)
         
-
 
 if __name__ == '__main__':
     import unittest
